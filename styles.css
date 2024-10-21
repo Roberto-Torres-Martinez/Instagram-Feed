@@ -1,0 +1,217 @@
+body {
+    background: black ;
+    margin: 0;
+}
+.feed {
+    margin: 0 auto;
+    background: lightcyan;
+    width: 750px;
+    display:flex;
+    align-items:normal;
+    flex-direction: column;
+  }
+.imagenperfil {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    object-fit: cover;
+    margin-top: 55px;
+}
+h1 {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    float: right;
+    margin-top: -7px;
+    margin-left: 30px;
+    margin-right: 5px;
+    color: black;
+    float: left;
+}
+h1:first-child{
+    margin: 0px;
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.feedheader {
+    display: flex;
+    margin-top: 39px;
+    color:black;
+    margin-left: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.enviarmensaje {
+    display: inline-block;
+	border: 1px solid;
+	border-color: lightgrey;
+	width: 8em;
+	background:lightgrey;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+    margin-top: -3px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "Buenard", serif;
+    font-weight: 100;
+    font-style: normal;
+    top: 0px;
+}
+.enviarmensaje:hover {
+    background: grey;
+}
+.seguir:hover {
+    background:mediumblue;
+}
+.seguir {
+        border: 1px solid;
+        border-color: dodgerblue;
+        width: 3em;
+        background:dodgerblue;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        margin-top: -3px;
+        margin-left: 5px;
+        border-radius: 5px;
+        float: right;
+        font-family: "Buenard", serif;
+        font-weight: 100;
+        font-style: normal;
+        float: left;
+}
+.descripcion {
+    display: block;
+    margin-left: 32px;
+}
+#verificado{
+    color: dodgerblue;
+    margin-top: 0px;
+    float: left;
+}
+.parrafo {
+    margin-left: 32px;
+    color:darkgrey;
+}
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#link {
+    position: relative;
+    left: -10px;
+}
+#link:hover {
+    color: blue;
+}
+.feedheaderizq {
+    align-items: start;
+}
+.feedheaderdrch {
+    align-items: end;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.calabaza {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+.pub1 {
+    display: block;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#hearth1 {
+    margin-right: 10px;
+    font-size: 25px;
+    
+}
+#comment1 {
+    margin-right: 10px;
+    font-size: 25px;
+}
+#share1 {
+    font-size: 25px;
+}
+.caption1:first-child {
+    display:flex
+    flex-direction:inline
+}
+.user {
+    margin-right: 5px;
+}
+.udon {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.pub2 {
+    display: block;
+}
+#hearth2 {
+    margin-right: 10px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    
+}
+#comment2 {
+    margin-right: 10px;
+    font-size: 25px;
+}
+#share2 {
+    font-size: 25px;
+}
+.caption2 {
+    margin-left: 25px;
+}
+.pub3 {
+    display: block;
+}
+.cheesecake {
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 50px;
+    object-position: 50% 75%;
+}
+#hearth3 {
+    margin-right: 10px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    
+}
+#comment3 {
+    margin-right: 10px;
+    font-size: 25px;
+}
+#share3 {
+    font-size: 25px;
+}
+
+
+
+
